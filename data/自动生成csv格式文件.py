@@ -1,0 +1,21 @@
+﻿import csv
+
+data = [
+    ["name", "age", "gender","hobby"],
+    ["王梓涵", 25, "男","吃饭,rap"],
+    ["刘若曦", 22, "女","睡觉,rap"],
+    ["陈俊宇", 20, "男","吃饭,rap"],
+    ["赵思瑶", 28, "女","睡觉,rap"],
+    ["黄浩然", 15, "男","唱歌,rap"],
+    ["林雨桐", 20, "女","跳舞,rap"],
+    ["周博文", 20, "男","玩游戏,rap"],
+    ["吴诗琪", 24, "女","学习,rap"],
+    ["马子轩", 22, "男","看电影,rap"],
+    ["孙悦然", 27, "女","逛街,rap"]
+]
+
+with open("stu.csv", "w", encoding="utf-8-sig", newline="") as f:
+    writer = csv.writer(f)
+    writer.writerows(data)
+
+print("CSV 文件已保存为 stu.csv")

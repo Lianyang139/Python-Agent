@@ -1,0 +1,77 @@
+[
+    {
+        "type": "human",
+        "data": {
+            "content": "小明有2只猫",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "小明有2只猫。请问您想了解什么相关信息呢？比如猫的名字、品种，或者与小明和猫有关的其他问题？",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "小刚有1只狗",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "小刚有1只狗。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "总共有多少只宠物",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "小明有2只猫，小刚有1只狗，所以他们一共有：\n\n2（猫） + 1（狗） = **3只宠物**。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    }
+]
